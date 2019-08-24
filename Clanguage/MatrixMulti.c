@@ -30,8 +30,6 @@ printf("---------------------------------------------------\n\n" );
 
 printf("Please Enter Entries of matrix A\n\n" );
 
-okman
-
 for(i=0;i<r1;i++){
     for(j=0;j<c1;j++){
     scanf("%d",&a[i][j]);
@@ -42,7 +40,7 @@ for(i=0;i<r1;i++){
 printf("matrix A\n" );
 printf("---------\n\n" );
 
-for(i=0;i<r1;i++){
+for(i=0;i<r1;i++
     for(j=0;j<c1;j++){
       printf("\t%d",a[i][j]);
     }

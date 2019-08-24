@@ -6,7 +6,7 @@ int top = -1;
 int stack[MAX];
 
 void push(){
-int pushedvalue;
+int pushedvalue[50];
 
   if(top==MAX-1){
   printf("\n\n---------------------------------");
@@ -16,7 +16,8 @@ int pushedvalue;
   else
   {
     printf("\n Enter value to be pushed in stack: ");
-    scanf("%d",&pushedvalue);
+    scanf("  %c",pushedvalue);
+    printf("%c",pushedvalue);
     top=top+1;
     stack[top]=pushedvalue;
   }
@@ -84,5 +85,4 @@ int main() {
      }
    }
 
-  return 0;
 }
